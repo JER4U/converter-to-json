@@ -1,0 +1,32 @@
+body{
+    background: #a18a67;
+}
+
+.div_result{
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1px 10px;
+    color: black;
+    font-family:'Century Gothic';
+    background-color: #fff;
+    transition: all .3s linear;
+}
+
+button:hover{
+    background: grey;
+    transition: all .3s linear;
+}
+
+img, h1 {
+    display: inline-block;
+    font-family:'Century Gothic';
+}
+img {
+    width: 45px;
+    height: 25px;
+}

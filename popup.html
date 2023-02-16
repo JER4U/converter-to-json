@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Convert to JSON</title>
+    </head>
+    <body>
+        <div>
+            <h1>Convert to JSON</h1>
+            <img src="../img/logo.png" alt="convert"/>
+        </div>
+        <input type="file" id="file-input" accept=".csv, .xlsx">
+        <button id="convert-button">Convert</button>
+        <button id="save-button">Save</button>
+        <div class="div_result" id="output"></div>
+        <script src="popup.js"></script>
+        <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    </body>
+</html>
